@@ -41,7 +41,7 @@ if "Videos" not in list_of_files:
 # print(extensions)
 
 
-# Uncomment this code if you want to check the extension of your files first
+# Comment this code if you want to check the extension of your files first
 for file in list_of_files:
     extension = file.split('.')
     if len(extension) == 1:
